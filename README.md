@@ -196,7 +196,7 @@ int main(void)
   {
 	  
 	  Lcd_cursor(&lcd,0,0);
-	  Lcd_string(&lcd,"\tkarnan k");
+	  Lcd_string(&lcd,"\tKarnan K");
 	  Lcd_cursor(&lcd,1,0);
 	  Lcd_string(&lcd,"212222230062");
 	  HAL_Delay(100);
