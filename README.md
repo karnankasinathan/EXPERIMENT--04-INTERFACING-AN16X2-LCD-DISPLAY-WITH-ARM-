@@ -1,3 +1,7 @@
+```
+Name : Karnan k
+Reg no : 212222230062
+```
 # EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
 
 
@@ -27,7 +31,7 @@ Below is the Pinout and Pin Description of 16x2 LCD Module:
 <img src="https://user-images.githubusercontent.com/36288975/233857710-541ac1c2-786c-4dfc-b7b5-e3a4868a9cb6.png" width=450 height=450>
 <img src="https://user-images.githubusercontent.com/36288975/233857733-05df5dbf-1a1e-479e-85bb-8014a39ad878.png" width=450 height=450>
 
-4-bit and 8-bit Mode of LCD:
+4 bit and 8 bit Mode of LCD:
 
 The LCD can work in two different modes, namely the 4-bit mode and the 8-bit mode. In 4 bit mode we send the data nibble by nibble, first upper nibble and then lower nibble. For those of you who don’t know what a nibble is: a nibble is a group of four bits, so the lower four bits (D0-D3) of a byte form the lower nibble while the upper four bits (D4-D7) of a byte form the higher nibble. This enables us to send 8 bit data.
 
@@ -173,6 +177,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
+```
 #include "main.h"
 #include "lcd.h"
 void SystemClock_Config(void);
@@ -261,7 +266,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 #endif /* USE_FULL_ASSERT */
 
-
+```
 
 ## Output screen shots of proteus  :
  <img src="https://github.com/karnankasinathan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/118787064/38c2b432-50ac-4b66-aee3-bc907d3a4ddc" width=450 height=450>
