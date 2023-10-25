@@ -1,6 +1,6 @@
 ```
-Name : Karnan k
-Reg no : 212222230062
+Name : Anbuselvam A
+Reg no : 212222240009
 ```
 # EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
 
@@ -196,9 +196,9 @@ int main(void)
   {
 	  
 	  Lcd_cursor(&lcd,0,0);
-	  Lcd_string(&lcd,"\tKarnan K");
+	  Lcd_string(&lcd,"\tAnbuselvam A");
 	  Lcd_cursor(&lcd,1,0);
-	  Lcd_string(&lcd,"212222230062");
+	  Lcd_string(&lcd,"212222240009");
 	  HAL_Delay(100);
   }
 }
@@ -269,7 +269,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 ```
 
 ## Output screen shots of proteus  :
- <img src="https://github.com/karnankasinathan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/118787064/38c2b432-50ac-4b66-aee3-bc907d3a4ddc" width=450 height=450>
+ <img src="https://github.com/karnankasinathan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/118787064/10a5cfbd-8ba4-4772-aacf-a1cc238b7f2f" width=450 height=450>
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
