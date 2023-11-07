@@ -1,6 +1,6 @@
 ```
-Name : ANBUSELVAM A
-Reg no : 212222240009
+Name : KARNAN K
+Reg no : 212222230062
 ```
 # EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
 
@@ -158,9 +158,9 @@ int main(void)
   {
 	  
 	  Lcd_cursor(&lcd,0,0);
-	  Lcd_string(&lcd,"\tANBUSELVAM A");
+	  Lcd_string(&lcd,"\tKARNAN ");
 	  Lcd_cursor(&lcd,1,0);
-	  Lcd_string(&lcd,"212222240009");
+	  Lcd_string(&lcd,"212222230062");
 	  HAL_Delay(100);
   }
 }
