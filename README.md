@@ -158,9 +158,9 @@ int main(void)
   {
 	  
 	  Lcd_cursor(&lcd,0,0);
-	  Lcd_string(&lcd,"\tAnbuselvam A");
+	  Lcd_string(&lcd,"\tKarnan K");
 	  Lcd_cursor(&lcd,1,0);
-	  Lcd_string(&lcd,"212222240009");
+	  Lcd_string(&lcd,"212222230062");
 	  HAL_Delay(100);
   }
 }
@@ -231,7 +231,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 ```
 
 ## Output screen shots of proteus  :
- <img src="https://github.com/karnankasinathan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/118787064/10a5cfbd-8ba4-4772-aacf-a1cc238b7f2f" width=450 height=450>
+ <img src="https://github.com/karnankasinathan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/118787064/3df7dd20-5dae-4cbf-9b4a-220f9b609ee9" width=450 height=450>
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
