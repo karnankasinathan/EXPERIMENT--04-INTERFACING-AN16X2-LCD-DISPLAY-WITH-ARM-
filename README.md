@@ -158,9 +158,9 @@ int main(void)
   {
 	  
 	  Lcd_cursor(&lcd,0,0);
-	  Lcd_string(&lcd,"\tKarnan K");
+	  Lcd_string(&lcd,"\tANBUSELVAM A");
 	  Lcd_cursor(&lcd,1,0);
-	  Lcd_string(&lcd,"212222230062");
+	  Lcd_string(&lcd,"21222224009");
 	  HAL_Delay(100);
   }
 }
